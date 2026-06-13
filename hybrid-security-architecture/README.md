@@ -103,14 +103,7 @@ The following details were **unspecified** and should be treated as future imple
 - log retention schedules
 - SIEM content engineering specifics
 - incident-response runbooks and playbooks
-- cost model and HA topology per provider
-
-If you expand this repo later, useful additions would include:
-
-- a security-zones diagram
-- a hybrid connector inventory template
-- a sample log-source matrix
-- an access review checklist
+- cost model and topology per provider
 - a markdown table comparing “primary path” vs. “legacy exception path”
 
 ## Lessons Learned
