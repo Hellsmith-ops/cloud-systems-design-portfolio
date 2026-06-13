@@ -109,19 +109,10 @@ Items that remain **unspecified** in the original materials include:
 - backup schedules
 - patching automation
 - exact alarm thresholds
-- production-grade HA design
-
-If you expand this repo later, strong additions would include:
-
-- a sample CloudWatch Agent config file
-- user-data/bootstrap notes for Amazon Linux 2023
-- a security group diagram
-- a sample alarm matrix
-- a screenshot of the EC2/EBS/CloudWatch relationship
+- security group diagram
 
 ## Lessons Learned
 
 - encryption, monitoring, and network isolation should be part of the first build, not late-stage add-ons
 - a clean Linux administration story is a strong cloud engineering signal, especially when it includes package management, services, logging, and troubleshooting
-- even a small EC2 project becomes much more compelling when the README explains design tradeoffs instead of only configuration steps
 - production readiness is not just about “launching an instance”; it is about repeatability, isolation, observability, and least-privilege access
